@@ -21,7 +21,7 @@ if PoN.lower() == 'play':
 				if a + b == c:
 					if i == 'O' or i == 'o':
 						point += 1
-					elif i == 'X' or i =='x':
+					elif i == 'X' or 'x':
 						print('Game over')
 						point = 0
 						ii = input('Enter \'play\' to start the game: ')
@@ -35,7 +35,7 @@ if PoN.lower() == 'play':
 				else:
 					if i == 'X' or i == 'x':
 						point += 1
-					elif i == 'O' or i == 'o':
+					elif i == 'O' or 'o':
 						print('Game over')
 						point = 0
 						ii = input('Enter \'play\' to start the game: ')
@@ -52,7 +52,7 @@ if PoN.lower() == 'play':
 				if a - b == c:
 					if i == 'O' or i == 'o':
 						point += 1
-					elif i == 'X' or i == 'x':
+					elif i == 'X' or 'x':
 						print('Game over')
 						point = 0
 						ii = input('Enter \'play\' to start the game: ')
@@ -66,7 +66,7 @@ if PoN.lower() == 'play':
 				else:
 					if i == 'X' or i == 'x':
 						point += 1
-					elif i == 'O' or i == 'o':
+					elif i == 'O' or 'o':
 						print('Game over')
 						point = 0
 						ii = input('Enter \'play\' to start the game: ')
@@ -84,7 +84,7 @@ if PoN.lower() == 'play':
 				i = input('O or X: ')
 				if i == 'O' or i == 'o':
 					point += 1
-				elif i == 'X' or i == 'x':
+				elif i == 'X' or 'x':
 					print('Game over')
 					point = 0
 					ii = input('Enter \'play\' to start the game: ')
@@ -100,7 +100,7 @@ if PoN.lower() == 'play':
 				i = input('O or X: ')
 				if i == 'O' or i == 'o':
 					point += 1
-				elif i == 'X' or i == 'x':
+				elif i == 'X' or 'x':
 					print('Game over')
 					point = 0
 					ii = input('Enter \'play\' to start the game: ')
